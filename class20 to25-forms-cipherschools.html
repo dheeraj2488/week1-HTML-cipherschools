@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>forms</h1>
+    <form >
+        <label for="username">user name:</label>
+        <input type="text" placeholder="enter your user name" id="username" required> <br> <br>
+        <label for="password">password:</label>
+        <input type="password" placeholder="enter your password" id="password" required> <br> <br>
+        <label for="email">email:</label>
+        <input type="email" placeholder="enter your email here" id="email" required> <br> <br>
+
+        <p>Gender</p>
+        <input type="radio" name="gender" id="male" value="male"> 
+        <label for="male">male</label> <br>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">female</label> <br> 
+
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">others</label> <br> <br>
+
+        <label for="age group">select your age group</label> <br>
+        <select name="age-group-value" id="age group" >
+            <option value="5-10">5-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-40">20-40</option>
+            <option value="40-60">40-60</option>
+        </select> <br>
+        <p>color:</p>
+        <input type="color" name="color" id=""> <br>
+        <p>date:</p>
+        <input type="date" name="date" id=""> <br>
+        <p>choose file:</p>
+        <input type="file" name="file name" id=""> <br>
+
+        <input type="submit" value="submit">
+        </form>
